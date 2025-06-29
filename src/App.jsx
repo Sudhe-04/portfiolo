@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import profileImage from './assets/profile.jpg';
+import profileImage from './assets/sudhe 1.jpg';
 
 function App() {
   const [activeNav, setActiveNav] = useState('home');
@@ -56,6 +56,7 @@ function App() {
             <li><a href="#about" className={activeNav === 'about' ? 'active' : ''} onClick={(e) => { e.preventDefault(); handleNavClick('about'); }}>About</a></li>
             <li><a href="#services" className={activeNav === 'services' ? 'active' : ''} onClick={(e) => { e.preventDefault(); handleNavClick('services'); }}>Services</a></li>
             <li><a href="#projects" className={activeNav === 'projects' ? 'active' : ''} onClick={(e) => { e.preventDefault(); handleNavClick('projects'); }}>Projects</a></li>
+            <li><a href="#education" className={activeNav === 'education' ? 'active' : ''} onClick={(e) => { e.preventDefault(); handleNavClick('education'); }}>Education</a></li>
             <li><a href="#contact" className={activeNav === 'contact' ? 'active' : ''} onClick={(e) => { e.preventDefault(); handleNavClick('contact'); }}>Contact</a></li>
           </ul>
           <div className="menu-toggle" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
