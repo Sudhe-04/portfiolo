@@ -210,6 +210,166 @@ function App() {
         </div>
       </section>
 
+      {/* Education Section */}
+      <section id="education" style={{ background: "linear-gradient(135deg, #0F0F23 0%, #050514 100%)", padding: "100px 0" }}>
+        <div className="container">
+          <h2 className="section-title" style={{ color: "#a78bfa", textAlign: "center", marginBottom: "2.5rem" }}>Education</h2>
+          <div style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(340px, 1fr))",
+            gap: "2.5rem",
+            justifyItems: "center"
+          }}>
+            {/* UG */}
+            <div style={{
+              background: "linear-gradient(135deg, #a78bfa 0%, #6366f1 100%)",
+              borderRadius: "20px",
+              boxShadow: "0 8px 32px rgba(124,58,237,0.18)",
+              padding: "2.2rem 2rem",
+              width: "100%",
+              maxWidth: "400px",
+              color: "#fff",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              position: "relative"
+            }}>
+              <div style={{
+                position: "absolute",
+                top: "-30px",
+                left: "20px",
+                background: "#fff",
+                borderRadius: "50%",
+                width: "56px",
+                height: "56px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontSize: "2rem",
+                boxShadow: "0 2px 12px #a78bfa44"
+              }}>
+                🎓
+              </div>
+              <div style={{ marginTop: "2rem" }}>
+                <div style={{ fontWeight: 700, fontSize: "1.25rem", marginBottom: "0.3rem" }}>
+                  Bachelor of Technology (UG)
+                </div>
+                <div style={{ fontWeight: 500, color: "#e0e7ff", marginBottom: "0.5rem" }}>
+                  Kongu Engineering College <span style={{ color: "#bae6fd" }}>| Erode</span>
+                </div>
+                <div style={{ marginBottom: "0.5rem" }}>
+                  <span style={{ fontWeight: 500 }}>Specialization:</span> Artificial Intelligence and Machine Learning
+                </div>
+                <div style={{ marginBottom: "0.5rem" }}>
+                  <span style={{ fontWeight: 500 }}>Duration:</span> 2022 - 2026
+                </div>
+                <div style={{ marginBottom: "0.5rem" }}>
+                  <span style={{ fontWeight: 500 }}>CGPA:</span> 7.03 
+                </div>
+                <div style={{ marginBottom: "0.5rem" }}>
+                  <span style={{ fontWeight: 500, color: "#22d3ee" }}>Status:</span> Pursuing
+                </div>
+              </div>
+            </div>
+            {/* HSC */}
+            <div style={{
+              background: "linear-gradient(135deg, #a78bfa 0%, #6366f1 100%)",
+              borderRadius: "20px",
+              boxShadow: "0 8px 32px rgba(124,58,237,0.18)",
+              padding: "2.2rem 2rem",
+              width: "100%",
+              maxWidth: "400px",
+              color: "#fff",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              position: "relative"
+            }}>
+              <div style={{
+                position: "absolute",
+                top: "-30px",
+                left: "20px",
+                background: "#fff",
+                borderRadius: "50%",
+                width: "56px",
+                height: "56px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontSize: "2rem",
+                boxShadow: "0 2px 12px #a78bfa44"
+              }}>
+                🏫
+              </div>
+              <div style={{ marginTop: "2rem" }}>
+                <div style={{ fontWeight: 700, fontSize: "1.15rem", marginBottom: "0.3rem" }}>
+                  HSC | (Bio-Maths)
+                </div>
+                <div style={{ fontWeight: 500, color: "#e0e7ff", marginBottom: "0.5rem" }}>
+                  Green Park Educational Institutions <span style={{ color: "#bae6fd" }}>| Namakkal</span>
+                </div>
+                <div style={{ marginBottom: "0.5rem" }}>
+                  <span style={{ fontWeight: 500 }}>Year:</span> 2022
+                </div>
+                <div style={{ marginBottom: "0.5rem" }}>
+                  <span style={{ fontWeight: 500 }}>Percentage:</span> 75%
+                </div>
+                <div style={{ marginBottom: "0.5rem" }}>
+                  <span style={{ fontWeight: 500, color: "#22d3ee" }}>Status:</span> Completed
+                </div>
+              </div>
+            </div>
+            {/* SSLC */}
+            <div style={{
+              background: "linear-gradient(135deg, #a78bfa 0%, #6366f1 100%)",
+              borderRadius: "20px",
+              boxShadow: "0 8px 32px rgba(124,58,237,0.18)",
+              padding: "2.2rem 2rem",
+              width: "100%",
+              maxWidth: "400px",
+              color: "#fff",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              position: "relative"
+            }}>
+              <div style={{
+                position: "absolute",
+                top: "-30px",
+                left: "20px",
+                background: "#fff",
+                borderRadius: "50%",
+                width: "56px",
+                height: "56px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontSize: "2rem",
+                boxShadow: "0 2px 12px #a78bfa44"
+              }}>
+                🏫
+              </div>
+              <div style={{ marginTop: "2rem" }}>
+                <div style={{ fontWeight: 700, fontSize: "1.15rem", marginBottom: "0.3rem" }}>
+                  SSLC
+                </div>
+                <div style={{ fontWeight: 500, color: "#e0e7ff", marginBottom: "0.5rem" }}>
+                  Green Park Educational Institutions <span style={{ color: "#bae6fd" }}>| Namakkal</span>
+                </div>
+                <div style={{ marginBottom: "0.5rem" }}>
+                  <span style={{ fontWeight: 500 }}>Year:</span> 2020
+                </div>
+                <div style={{ marginBottom: "0.5rem" }}>
+                  <span style={{ fontWeight: 500 }}>Percentage:</span> 74.4%
+                </div>
+                <div style={{ marginBottom: "0.5rem" }}>
+                  <span style={{ fontWeight: 500, color: "#22d3ee" }}>Status:</span> Completed
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Projects Section */}
       <section id="projects">
         <div className="container">
